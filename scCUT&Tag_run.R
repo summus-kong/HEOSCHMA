@@ -114,7 +114,7 @@ scK4me3w6.new.proj.rmdoub <- addClusters(
   force = TRUE,
   resolution = 0.5,
   maxClusters = 100,
-  dimsToUse = 1:30
+  dimsToUse = 2:30
 )
 scK4me3w6.new.proj.rmdoub <- addUMAP(
   ArchRProj = scK4me3w6.new.proj.rmdoub,
@@ -122,7 +122,7 @@ scK4me3w6.new.proj.rmdoub <- addUMAP(
   name = "IterativeLSIUMAP",
   force = TRUE,
   threads = 8,
-  dimsToUse = 1:30,
+  dimsToUse = 2:30,
   nNeighbors = 40,
   minDist = 0.7
 )
@@ -251,7 +251,7 @@ scK27w6.1.proj.rmdoub <- addClusters(
   force = TRUE,
   resolution = 0.5,
   maxClusters = 100,
-  dimsToUse = 1:30
+  dimsToUse = 2:30
 )
 scK27w6.1.proj.rmdoub <- addUMAP(
   ArchRProj = scK27w6.1.proj.rmdoub,
@@ -259,7 +259,7 @@ scK27w6.1.proj.rmdoub <- addUMAP(
   name = "IterativeLSIUMAP",
   force = TRUE,
   threads = 8,
-  dimsToUse = 1:30,
+  dimsToUse = 2:30,
   nNeighbors = 40,
   minDist = 0.7
 )
@@ -385,7 +385,7 @@ scK27me3w6.new.proj.rmdoub <- addClusters(
   force = TRUE,
   resolution = 1,
   maxClusters = 100,
-  dimsToUse = 1:30
+  dimsToUse = 2:30
 )
 scK27me3w6.new.proj.rmdoub <- addUMAP(
   ArchRProj = scK27me3w6.new.proj.rmdoub,
@@ -393,7 +393,7 @@ scK27me3w6.new.proj.rmdoub <- addUMAP(
   name = "IterativeLSIUMAP",
   force = TRUE,
   threads = 8,
-  dimsToUse = 1:30,
+  dimsToUse = 2:30,
   nNeighbors = 40,
   minDist = 0.7
 )
@@ -508,7 +508,7 @@ scK4me1w6.new.proj.rmdoub <- addClusters(
   force = TRUE,
   resolution = 1,
   maxClusters = 100,
-  dimsToUse = 1:30
+  dimsToUse = 2:30
 )
 scK4me1w6.new.proj.rmdoub <- addUMAP(
   ArchRProj = scK4me1w6.new.proj.rmdoub,
@@ -516,7 +516,7 @@ scK4me1w6.new.proj.rmdoub <- addUMAP(
   name = "IterativeLSIUMAP",
   force = TRUE,
   threads = 8,
-  dimsToUse = 1:30,
+  dimsToUse = 2:30,
   nNeighbors = 40,
   minDist = 0.7
 )
